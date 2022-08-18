@@ -1,0 +1,26 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.trinet.mobilev7",
+            "sha256_cert_fingerprints": [
+                "64:8E:34:54:94:55:BE:88:C9:0E:DC:25:76:28:1D:5B:1A:F2:EB:64:B5:A7:EE:15:EC:20:10:CF:DB:A4:E7:4D"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.trinet.hrpmobile",
+            "sha256_cert_fingerprints": [
+                "64:8E:34:54:94:55:BE:88:C9:0E:DC:25:76:28:1D:5B:1A:F2:EB:64:B5:A7:EE:15:EC:20:10:CF:DB:A4:E7:4D"
+            ]
+        }
+    }
+]
