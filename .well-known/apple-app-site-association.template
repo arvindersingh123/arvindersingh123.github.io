@@ -1,0 +1,21 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "58HKZG8YVV.com.trinet.mobilev7",
+                "paths": [
+                    "/signin/unlock",
+                    "/signin/user-unlock/*"
+                ]
+            },
+            {
+                "appID": "4236R34776.com.trinet.hrpmobile",
+                "paths": [
+                    "/signin/unlock",
+                    "/signin/user-unlock/*"
+                ]
+            }
+        ]
+    }
+}
