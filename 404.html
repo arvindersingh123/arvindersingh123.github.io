@@ -5,6 +5,12 @@
         <meta charset="UTF-8" />
    </head>
    <body>
-    <div>Hello world!!!</div>
+     <script type="text/javascript">
+         const params = new URLSearchParams(window.location.search)
+
+         if(params.has('url')) {
+            window.location.href = params.get('url');
+         }
+     </script>
    </body>
 </html>
