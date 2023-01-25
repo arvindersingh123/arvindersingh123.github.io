@@ -6,7 +6,8 @@
                 "appID": "58HKZG8YVV.com.trinet.mobilev7",
                 "paths": [
                     "/signin/unlock",
-                    "/signin/user-unlock/*"
+                    "/signin/user-unlock/*",
+					"/ui-pa/#/newhireonboarding"
                 ]
             },
             {
