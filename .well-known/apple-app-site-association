@@ -7,14 +7,15 @@
                 "paths": [
                     "/signin/unlock",
                     "/signin/user-unlock/*",
-					"/ui-pa/#/newhireonboarding"
+					"/newhireonboarding/*"
                 ]
             },
             {
                 "appID": "4236R34776.com.trinet.hrpmobile",
                 "paths": [
                     "/signin/unlock",
-                    "/signin/user-unlock/*"
+                    "/signin/user-unlock/*",
+					"/newhireonboarding/*"
                 ]
             }
         ]
