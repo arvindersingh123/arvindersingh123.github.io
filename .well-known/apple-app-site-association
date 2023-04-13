@@ -7,7 +7,7 @@
                 "paths": [
                     "/signin/unlock",
                     "/signin/user-unlock/*",
-					"/newhireonboarding/*"
+					"/v1/selfservice/newhireonboarding/*"
                 ]
             },
             {
@@ -15,7 +15,7 @@
                 "paths": [
                     "/signin/unlock",
                     "/signin/user-unlock/*",
-					"/newhireonboarding/*"
+					"/v1/selfservice/newhireonboarding/*"
                 ]
             }
         ]
