@@ -1,23 +1,37 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "58HKZG8YVV.com.trinet.mobilev7",
-                "paths": [
-                    "/signin/unlock",
-                    "/signin/user-unlock/*",
-                    "/v1/selfservice/newhireonboarding/*"
-                ]
-            },
-            {
-                "appID": "4236R34776.com.trinet.hrpmobile",
-                "paths": [
-                    "/signin/unlock",
-                    "/signin/user-unlock/*",
-                    "/v1/selfservice/newhireonboarding/*"
-                ]
-            }
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["58HKZG8YVV.com.trinet.mobilev7", "4236R34776.com.trinet.hrpmobile"],
+        "components": [
+          {
+            "/": "/signin/unlock",
+            "comment": "OKTA widget based unlock account link"
+          },
+          {
+            "/": "/signin/user-unlock/*",
+            "comment": "OKTA widget based unlock account link"
+          },
+          {
+            "/": "/v1/selfservice/newhireonboarding/*",
+            "comment": "Self Serve - New hire onboarding"
+          },
+          {
+            "/": "/signin/reset-password/*",
+            "comment": "OKTA widget based Reset Password link"
+          },
+          {
+            "/": "/ui-pa/",
+            "#": "/la/password",
+            "comment": "Reset Password link"
+          },
+          {
+            "/": "/ui-pa/",
+            "#": "/la/unlock",
+            "comment": "Unlock Account link"
+          }
         ]
-    }
+      }
+    ]
+  }
 }
